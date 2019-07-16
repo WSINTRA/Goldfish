@@ -1,0 +1,19 @@
+#fish {
+	animation: mymove 5s infinite;
+  -webkit-animation: mymove 5s infinite;
+
+}
+
+@-webkit-keyframes mymove {
+  50% {margin-left: 50px;}
+  60% {-webkit-transform: rotateY(130deg);}
+
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  50% {margin-left: 50px;}
+  10% {-webkit-transform: rotateY(130deg);}
+  90% {-webkit-transform: rotateY(180deg);}
+}
